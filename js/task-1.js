@@ -10,6 +10,8 @@ const getUserNames = (users) => {
   return userNameArray;
 }
 
+
+
 //
 console.log(
   getUserNames([
