@@ -5,10 +5,9 @@
 // function 
 
 const getUserNames = (users) => {
-  let userNames = Object.values(users);
-  const userNameArray = userNames.filter(user => user.name);
-  return userNameArray;
-}
+  return users.map((user) => user.name);
+};
+
 
 
 
